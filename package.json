@@ -1,0 +1,9 @@
+{
+  "name": "prettier-config-jwilsson",
+  "description": "jwilsson Prettier config",
+  "repository": "jwilsson/prettier-config",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "license": "MIT"
+}
