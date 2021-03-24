@@ -1,12 +1,12 @@
 {
-  "name": "@jwilsson/prettier-config-eslint",
+  "name": "@jwilsson/stylelint-config-prettier",
   "version": "1.0.0",
-  "description": "jwilsson Prettier ESLint config",
+  "description": "jwilsson stylelint Prettier config",
   "main": "index.js",
   "dependencies": {
     "@jwilsson/prettier-config": "^1.0.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1"
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-prettier": "^1.1.2"
   },
   "license": "MIT",
   "publishConfig": {
