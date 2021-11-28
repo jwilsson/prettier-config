@@ -2,6 +2,11 @@
   "name": "prettier-config-jwilsson",
   "description": "jwilsson Prettier config",
   "repository": "jwilsson/prettier-config",
+  "scripts": {
+    "install-all": "lerna exec --no-bail -- npm install --package-lock=false",
+    "outdated-all": "lerna exec --no-bail -- npm outdated",
+    "update-all": "lerna exec --no-bail -- npm update"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   },
