@@ -1,10 +1,10 @@
 {
   "name": "@jwilsson/stylelint-config-prettier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "jwilsson stylelint Prettier config",
   "main": "index.js",
   "dependencies": {
-    "@jwilsson/prettier-config": "^1.0.0",
+    "@jwilsson/prettier-config": "^1.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-prettier": "^2.0.0"
   },
