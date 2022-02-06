@@ -2,13 +2,16 @@
   "name": "prettier-config-jwilsson",
   "description": "jwilsson Prettier config",
   "repository": "jwilsson/prettier-config",
+  "license": "MIT",
   "scripts": {
+    "prettier": "prettier packages/**/*.js --write",
     "install-all": "lerna exec --no-bail -- npm install --package-lock=false",
     "outdated-all": "lerna exec --no-bail -- npm outdated",
     "update-all": "lerna exec --no-bail -- npm update"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "prettier": "^2.5.1"
   },
-  "license": "MIT"
+  "prettier": "./packages/prettier-config/index.js"
 }
