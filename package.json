@@ -9,11 +9,15 @@
         "packages/prettier-config",
         "packages/stylelint-config-prettier"
     ],
-    "scripts": {
-        "prettier": "prettier packages/**/*.js --write"
-    },
     "devDependencies": {
-        "prettier": "^2.5.1"
+        "prettier": "^2.5.1",
+        "simple-git-hooks": "^2.7.0"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged"
+    },
+    "lint-staged": {
+        "packages/**/*.{js,json}": "prettier --write"
     },
     "prettier": "./packages/prettier-config/index.js"
 }
