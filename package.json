@@ -1,17 +1,19 @@
 {
-  "name": "prettier-config-jwilsson",
-  "description": "jwilsson Prettier config",
-  "repository": "jwilsson/prettier-config",
-  "license": "MIT",
-  "scripts": {
-    "prettier": "prettier packages/**/*.js --write",
-    "install-all": "lerna exec --no-bail -- npm install --package-lock=false",
-    "outdated-all": "lerna exec --no-bail -- npm outdated",
-    "update-all": "lerna exec --no-bail -- npm update"
-  },
-  "devDependencies": {
-    "lerna": "^4.0.0",
-    "prettier": "^2.5.1"
-  },
-  "prettier": "./packages/prettier-config/index.js"
+    "name": "prettier-config-jwilsson",
+    "description": "jwilsson Prettier config",
+    "repository": "jwilsson/prettier-config",
+    "license": "MIT",
+    "private": "true",
+    "workspaces": [
+        "packages/eslint-config-prettier",
+        "packages/prettier-config",
+        "packages/stylelint-config-prettier"
+    ],
+    "scripts": {
+        "prettier": "prettier packages/**/*.js --write"
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    },
+    "prettier": "./packages/prettier-config/index.js"
 }

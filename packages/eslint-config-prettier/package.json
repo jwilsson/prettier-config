@@ -1,15 +1,12 @@
 {
-  "name": "@jwilsson/eslint-config-prettier",
-  "version": "7.2.0",
-  "description": "jwilsson ESLint Prettier config",
-  "main": "index.js",
-  "dependencies": {
-    "@jwilsson/prettier-config": "^7.2.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^4.0.0"
-  },
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@jwilsson/eslint-config-prettier",
+    "version": "7.2.0",
+    "description": "jwilsson ESLint Prettier config",
+    "main": "index.js",
+    "dependencies": {
+        "@jwilsson/prettier-config": "^7.2.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-prettier": "^4.0.0"
+    },
+    "license": "MIT"
 }
